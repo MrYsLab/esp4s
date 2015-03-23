@@ -1,7 +1,7 @@
 {
     "extensionName": "esp4s_http_v001",
     "extensionPort": 50209,
-    "url": "https://github.com/MrYsLab/s2ESP",
+    "url": "https://github.com/MrYsLab/esp4s",
     "blockSpecs": [
         [
             "",
