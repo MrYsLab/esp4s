@@ -1,0 +1,149 @@
+{
+    "extensionName": "esp4s_http_v001",
+    "extensionPort": 50209,
+    "url": "https://github.com/MrYsLab/esp4s",
+    "blockSpecs": [
+        [
+            "",
+            "Configura LED Tarjeta (D-13) a %m.off_on",
+            "board_led",
+            "Off"
+        ],
+        [
+            "",
+            "Configura %m.leds LED en %n (0 - 255)",
+            "leds",
+            "Red",
+            0
+        ],
+        [
+            "",
+            "Toca: %m.notes Nota",
+            "play_tone",
+            "C"
+        ],
+        [
+            "",
+            "Tono Continuo: %n Hz.",
+            "tone2",
+            0
+        ],
+        [
+            "",
+            "Configura Salida TinkerKitt %m.tk_chan con %n (0-255)",
+            "tinker_out",
+            "A",
+            0
+        ],
+        [
+            "",
+            "Orientaci�n Tarjeta: %m.orientation",
+            "orientation",
+            "Joystick_On_Left"
+        ],
+        [
+            "",
+            "Unidades Temperatura Units: %m.units",
+            "temp_units",
+            "Celsius"
+        ],
+        [
+            "r",
+            "Lee Valor Potenci�metro",
+            "slider"
+        ],
+        [
+            "r",
+            "Lee Sensor Luz",
+            "light"
+        ],
+        [
+            "r",
+            "Lee Sensor Temperatura",
+            "temp"
+        ],
+        [
+            "r",
+            "Lee Sensor Sonido",
+            "sound"
+        ],
+        [
+            "r",
+            "Lee Pulsador: %m.switches",
+            "buttons",
+            "Down"
+        ],
+        [
+            "r",
+            "Joystick: %m.joystick",
+            "joystick",
+            "Left-Right_(X)"
+        ],
+        [
+            "r",
+            "Lee Aceler�metro: %m.accel_axis",
+            "accel",
+            "X__Side-Twist"
+        ],
+        [
+            "r",
+            "Lee Entrada TinkerKit: %m.tk_chan",
+            "tkInput",
+            "A"
+        ]
+    ],
+    "menus": {
+        "leds": [
+            "Red",
+            "Green",
+            "Blue"
+        ],
+        "tk_chan": [
+            "A",
+            "B"
+        ],
+        "off_on": [
+            "Off",
+            "On"
+        ],
+        "switches": [
+            "Down",
+            "Up",
+            "Left",
+            "Right"
+        ],
+        "joystick": [
+            "Left-Right_(X)",
+            "Up-Down_(Y)",
+            "Button"
+        ],
+        "accel_axis": [
+            "X__Side-Twist",
+            "Y__Front-Twist",
+            "Z__Raise-Lower"
+        ],
+        "notes": [
+            "C",
+            "C_Sharp--D_Flat",
+            "D",
+            "D_Sharp--E_Flat",
+            "E",
+            "F",
+            "F_Sharp--G_Flat",
+            "G",
+            "G_Sharp--A_Flat",
+            "A",
+            "A_Sharp--B_Flat",
+            "B",
+            "Note_Off"
+        ],
+        "orientation": [
+            "Joystick_On_Left",
+            "Joystick_On_Right"
+        ],
+        "units": [
+            "Celsius",
+            "Fahrenheit"
+        ]
+    }
+}

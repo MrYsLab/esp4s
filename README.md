@@ -1,5 +1,11 @@
 esp4s
 =====
+
+
+###Block text and User's Guide provided in English
+
+###Y Bloque de texto y guía del usuario siempre en español - gracias, José Manuel Ruiz Gutiérrez
+
 <p align="center">
   <img src="https://raw.github.com/MrYsLab/esp4s/master/documentation/kids.png?raw=true" alt="Sublime's custom image"/>
 </p>
